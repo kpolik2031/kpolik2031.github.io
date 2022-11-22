@@ -1,0 +1,86 @@
+.profile-main .buy-data {
+	background: #e9d9c1;
+	padding: 20px;
+	border-radius: 20px;
+	height: fit-content;
+}
+
+.profile-main .buy-data h4 {
+	text-align: center;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+	border-bottom: 2px solid black;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+.profile-main {
+	grid-template-columns: 1fr 1fr;
+}
+
+input:first-child {
+	margin-top: 20px;
+}
+
+input, select {
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+	border: none;
+	text-indent: 10px;
+	padding: 9px 0px;
+	border-bottom: 2px solid #e9d9c1;
+}
+
+input:hover,
+input:focus {
+	border-bottom: 2px solid black;
+}
+
+input:focus,
+select:focus {
+	outline: none;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 50px;
+    max-height: 80px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-bottom: 2px solid #e9d9c1;
+}
+
+textarea:hover,
+textarea:focus {
+	border-bottom: 2px solid black;
+}
+
+button {
+	display: block;
+	width: 200px;
+	margin: auto;
+	outline: none;
+	background: white;
+	color: black;
+	padding: 5px;
+	cursor: pointer;
+	border: 2px solid #ddbe91;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	transition: 0.2s;
+	border-radius: 15px;
+	margin-bottom: 10px;
+}
+
+button:hover {
+	background: #ddbe91;
+}
